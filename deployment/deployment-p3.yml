@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: coworking
-        image: <DOCKER_IMAGE_URI_FROM_ECR>
+        image: 551867257934.dkr.ecr.us-east-1.amazonaws.com/coworking-checkin
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
