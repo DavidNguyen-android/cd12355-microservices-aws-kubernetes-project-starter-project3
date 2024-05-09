@@ -7,4 +7,5 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 EXPOSE 5000
 ENV NAME World
 
-CMD python app.py
+# CMD python app.py
+CMD /bin/bash
