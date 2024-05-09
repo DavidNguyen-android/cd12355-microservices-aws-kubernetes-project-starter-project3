@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: coworking
-        image: 551867257934.dkr.ecr.us-east-1.amazonaws.com/coworking-checkin:5870e22
+        image: 551867257934.dkr.ecr.us-east-1.amazonaws.com/coworking-checkin:latest
         # command: ["/bin/sh"]
         # args: ["-c", "while true; do echo hello; sleep 10;done"]
         # image: nginx
@@ -50,10 +50,10 @@ spec:
         envFrom:
         - configMapRef:
             name: coworking-postgresql
-        # env:
-        # - name: DB_PASSWORD
-        #   valueFrom:
-        #     secretKeyRef:
-        #       name: coworking-secret
-        #       key: DB_PASSWORD
+        env:
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: coworking-secret
+              key: DB_PASSWORD
       restartPolicy: Always
