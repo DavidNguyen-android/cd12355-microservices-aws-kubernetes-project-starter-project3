@@ -11,4 +11,4 @@ ENV DB_USERNAME="postgres"
 ENV DB_NAME="postgres"
 ENV DB_PASSWORD="postgres"
 # CMD python app.py
-CMD /bin/sh
+CMD /bin/sh -c "sleep 10000" 
