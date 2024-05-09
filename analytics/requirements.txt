@@ -3,3 +3,4 @@ APScheduler
 flask_sqlalchemy
 SQLAlchemy
 psycopg2-binary
+Werkzeug==2.2.2
