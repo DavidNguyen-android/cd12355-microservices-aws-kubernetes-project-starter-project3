@@ -1,17 +1,10 @@
 Project Name
-Briefly describe your project and its purpose.
+Operationalizing a Coworking Space Microservice
 
-Table of Contents
-Technologies Used(opens in a new tab)
-Getting Started(opens in a new tab)
-Prerequisites(opens in a new tab)
-Installation(opens in a new tab)
-Deployment Process(opens in a new tab)
-Release Process(opens in a new tab)
-Troubleshooting(opens in a new tab)
-Contributing(opens in a new tab)
-License(opens in a new tab)
-Technologies Used
+Screenshots: screenshots 
+
+output host: ae9146d1bbf02493eb6d1fb0ddb368b0-1286295365.us-east-1.elb.amazonaws.com
+
 List the technologies and tools used in your project, such as:
 
 Docker
@@ -54,5 +47,3 @@ License
 Specify the license under which your project is released.
 
 Feel free to customize this template to fit your project's specific needs. Make sure to include all the necessary information and instructions to help users understand and deploy your project successfully.
-
-output host: ae9146d1bbf02493eb6d1fb0ddb368b0-1286295365.us-east-1.elb.amazonaws.com
